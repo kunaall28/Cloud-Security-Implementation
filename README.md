@@ -24,7 +24,7 @@ Apply the principle of least privilege by restricting user permissions.
 - Restricted S3 access to prevent unauthorized operations.
 - Tested access denial scenarios.
 
-![IAM User Configuration](images/T4A.png)
+![IAM User Configuration](images/T4A1.png)
 --------------------------------------------------
 
 2️⃣ Secure Storage using Amazon S3
@@ -37,11 +37,9 @@ Ensure storage bucket is secure and not publicly accessible.
 - Blocked all public access.
 - Uploaded multiple test objects.
 
-📸 **Screenshot:** Bucket permissions (Public access blocked)  
-`(Insert bucket permissions screenshot here)`
+![Bucket Created](images/T4A.png)
 
-📸 **Screenshot:** Objects inside bucket  
-`(Insert objects screenshot here)`
+![Objects Created](images/T4B.png)
 
 --------------------------------------------------
 
@@ -55,8 +53,9 @@ Protect stored data using server-side encryption.
 - Used **SSE-S3 (AES-256)** encryption.
 - Verified encryption status for each object.
 
-📸 **Screenshot:** SSE-S3 encryption enabled  
-`(Insert encryption screenshot here)`
+![SSE-S3 On sameple file](images/T4C.png)
+
+![SSE-S3 On demo file](images/T4D.png)
 
 --------------------------------------------------
 
@@ -68,8 +67,7 @@ To verify security controls, multiple access attempts were tested:
 - User attempted to delete an object.
 - Operation was denied.
 
-📸 **Screenshot:** Delete object access denied  
-`(Insert delete denied screenshot here)`
+![Delete Object](images/T4E.png)
 
 --------------------------------------------------
 
@@ -77,17 +75,17 @@ To verify security controls, multiple access attempts were tested:
 - User attempted to access S3 bucket.
 - Access was denied due to restricted permissions.
 
-📸 **Screenshot:** S3 access denied  
-`(Insert S3 access denied screenshot here)`
+![Access S3](images/T4F.png)
 
 --------------------------------------------------
 
-❌ Attempt 3: EC2 Instance Access
+❌ Attempt 3: EC2 Instance & IAM Dashboard Access
 - Attempted to access S3 from EC2.
 - Access denied due to IAM restrictions.
 
-📸 **Screenshot:** EC2 access denied  
-`(Insert EC2 access denied screenshot here)`
+![Access EC2](images/T4G.png)
+
+![Access IAM](images/T4H.png)
 
 --------------------------------------------------
 
@@ -96,8 +94,8 @@ To verify security controls, multiple access attempts were tested:
 - Access denied confirmed.
 - Public access successfully blocked.
 
-📸 **Screenshot:** Public access denied  
-`(Insert incognito access denied screenshot here)`
+![Access File](images/T4I.png)
+![Access File](images/T4J.png)
 
 --------------------------------------------------
 
@@ -110,11 +108,7 @@ Protect against accidental deletion or overwriting of files.
 - Enabled versioning on the S3 bucket.
 - Verified multiple versions of objects.
 
-📸 **Screenshot:** Versioning enabled  
-`(Insert versioning screenshot here)`
-
-📸 **Screenshot:** Multiple object versions  
-`(Insert object versions screenshot here)`
+![Multiple Versions](images/T4K.png)
 
 --------------------------------------------------
 
