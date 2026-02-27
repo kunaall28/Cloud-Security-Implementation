@@ -24,9 +24,7 @@ Apply the principle of least privilege by restricting user permissions.
 - Restricted S3 access to prevent unauthorized operations.
 - Tested access denial scenarios.
 
-📸 **Screenshot:** IAM user & policy configuration  
-`(Insert IAM configuration screenshot here)`
-![IAM User](screenshots/iam-user.png)
+![IAM User Configuration](images/T4A.png)
 --------------------------------------------------
 
 2️⃣ Secure Storage using Amazon S3
