@@ -26,7 +26,7 @@ Apply the principle of least privilege by restricting user permissions.
 
 📸 **Screenshot:** IAM user & policy configuration  
 `(Insert IAM configuration screenshot here)`
-
+![IAM User](screenshots/iam-user.png)
 --------------------------------------------------
 
 2️⃣ Secure Storage using Amazon S3
